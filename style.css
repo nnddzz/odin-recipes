@@ -1,0 +1,11 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+header {
+  color: white;
+  background-color: #532f00;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
