@@ -1,11 +1,31 @@
 body {
   font-family: Verdana, Arial, sans-serif;
+  margin: 0;
+  background-color: #ffe1b9;
 }
 
-header {
+.header-page {
   color: white;
-  background-color: #532f00;
+  background-color: #7a4602;
   margin: 0 auto;
+  margin-bottom: 50px;
   padding: 50px;
   text-align: center;
+  border-bottom: 4px solid #4b2a00;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: lighter;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+main > img {
+  max-width: fit-content;
+  height: auto;
 }
