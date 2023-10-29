@@ -3,13 +3,14 @@ body {
   font-family: Verdana, Arial, sans-serif;
   margin: 0;
   background-color: #ffe1b9;
+  box-sizing: border-box;
 }
 
 .header-page {
   color: white;
   background-color: #7a4602;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   padding: 50px;
   text-align: center;
   border-bottom: 4px solid #4b2a00;
@@ -31,18 +32,17 @@ h2 {
   color: #4b2a00;
   font-size: 28px;
   font-weight: bold;
-  margin-top: 50px;
-  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 5px;
 }
 
-main {
+.image-header,
+.content {
   max-width: 800px;
   margin: 0 auto;
   padding: 10px;
 }
 
 img {
-  max-width: 800px;
-  height: auto;
-  margin: 0 auto;
+  width: 100%;
 }
