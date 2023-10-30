@@ -118,3 +118,11 @@ h2 {
   margin: 0 auto;
   gap: 20px;
 }
+
+.footer{
+  width: 100%;
+  background-color: #4b2a00;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+}
